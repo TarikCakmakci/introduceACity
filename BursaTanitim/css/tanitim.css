@@ -1,0 +1,56 @@
+﻿body {
+    background-color:#949191;
+}
+* {
+    margin:0;
+    padding:0;
+}
+.sana {
+    margin-left:10%;
+    margin-right:10%;
+    height:auto;
+}
+.menu {
+    width:100%;
+    height:50px;
+    background-color:#ffd151;
+    line-height:50px;
+    
+}
+.menu ul {
+    list-style:none;
+    
+   
+}
+.menu ul li {
+    float:left;
+    margin-left:15px;
+    color:black;
+    padding-left:5px;
+    
+}
+.menu ul :hover {
+        color: #6554ff;
+        font-size: 35px;
+}
+a {
+    text-decoration:none;
+    color:black;
+    font-size:25px;
+}
+.icerik {
+    width:100%;
+    margin-top:5px;
+    height:500px;
+    background-color:#cccaca;
+
+}
+.altTaraf {
+    position: fixed;
+    left:0;
+    bottom:0;
+    width: 100%;
+    background-color: yellow;
+    color: blue;
+    text-align: center;
+}

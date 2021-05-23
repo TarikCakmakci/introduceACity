@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AnaSayfa.master.cs" Inherits="BursaTanitim.AnaSayfa" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="css/tanitim.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="sana">
+            <div class="menu"> 
+                <ul>
+                <li><a href="default.aspx">ANASAYFA</a> </li>
+                <li><a href="urunler.aspx">ÜRÜN EKLE</a> </li>
+                <li><a href="iletisim.aspx">İLETİŞİM</a> </li>
+                <li><a href="tanitim.aspx">TANITIM</a></li>
+                </ul>
+            </div>
+            <div class="icerik">
+
+           
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                 </div>
+            <div class="altTaraf">
+                @ Tarık Çakmakcı 
+            </div>
+        </div>
+    </form>
+</body>
+</html>
